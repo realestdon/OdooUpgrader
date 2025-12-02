@@ -1,4 +1,4 @@
-# OdooUpgrade
+# OdooUpgrader
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -35,8 +35,8 @@ pip install odooupgrader
 ### From Source
 
 ```bash
-git clone https://github.com/fasilwdr/OdooUpgrade.git
-cd OdooUpgrade
+git clone https://github.com/fasilwdr/OdooUpgrader.git
+cd OdooUpgrader
 pip install -e .
 ```
 
