@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "odooupgrader"
-version = "0.1.0"
+version = "0.2.0"
 description = "Docker-based Odoo database migration tool using OpenUpgrade framework"
 authors = [{name = "Fasil", email = "fasilwdr@hotmail.com"}]
 readme = "README.md"
@@ -20,10 +20,10 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 
 dependencies = [
-    "docker>=7.0.0",
     "click>=8.1.0",
     "rich>=13.7.0",
     "requests>=2.31.0",
@@ -48,7 +48,7 @@ odooupgrader = "odooupgrader.cli:main"
 
 [tool.black]
 line-length = 100
-target-version = ['py39', 'py310', 'py311', 'py312']
+target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 
 [tool.mypy]
 python_version = "3.9"
